@@ -1,3 +1,4 @@
-# My Awesome Book
+# Teacher's Manual
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Collected wisdom on how to teach Application Development effectively.
+

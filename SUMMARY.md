@@ -4,4 +4,6 @@
 * [Pair Teaching](pair-teaching.md)
 * Eliciting Questions During Class
 * Answering Questions on Piazza
+* Office Hours
+* rails grade
 

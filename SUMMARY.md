@@ -9,5 +9,5 @@
 * [How To Write Tests](how-to-write-tests.md)
 * [Audit Requests](audit-requests.md)
 * [Setting Up Canvas](setting-up-canvas.md)
-* Setting Up GitHub
+* [Setting Up GitHub](setting-up-github.md)
 

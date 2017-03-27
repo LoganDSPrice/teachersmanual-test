@@ -32,12 +32,6 @@ You will ultimately build a functional prototype of your own app idea. To do thi
  - Arjun Venkataswamy
    - Email: 
    - Office Hours: TBD
- - Ben Block
-   - Email: 
-   - Office Hours:
- - Pavan Sarguru
-   - Email: 
-   - Office Hours: TBD
 
 ## Required Materials
 

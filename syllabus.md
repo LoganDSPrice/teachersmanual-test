@@ -27,16 +27,16 @@ You will ultimately build a functional prototype of your own app idea. To do thi
 ### Instructors
 
  - Raghu Betina 
-   - Email: <r-betina@kellogg.northwestern.edu>
-   - Office Hours: Book through [https://rbetina.youcanbook.me](https://rbetina.youcanbook.me/)
+   - Email: 
+   - Office Hours: 
  - Arjun Venkataswamy
-   - Email: <avenkat2@gmail.com>
+   - Email: 
    - Office Hours: TBD
  - Ben Block
-   - Email: <bjblock@gmail.com>
-   - Office Hours: Book through [https://calendly.com/benblock/office-hours](https://calendly.com/benblock/office-hours)
+   - Email: 
+   - Office Hours:
  - Pavan Sarguru
-   - Email: <pavan.sarguru@gmail.com>
+   - Email: 
    - Office Hours: TBD
 
 ## Required Materials

@@ -81,7 +81,7 @@ The primary objective of homeworks is to expose places where your understanding 
 
 You are allowed and encouraged to work in study groups on the homeworks, but you must type up your final solutions yourself. In other words, no copy-pasting.
 
-# Midterm (25% of your grade)
+## Midterm (25% of your grade)
 
 The midterm exam will occupy one-half of Week 6 class. It will be a practical exam; you will download broken applications and fix them. The format will be exactly the same as your homeworks.
 

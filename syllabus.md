@@ -89,7 +89,7 @@ The midterm exam will occupy one-half of Week 6 class. It will be a practical ex
 
 The final project will be to build one of your own ideas, and to record a brief screencast demoing it and discussing something you learned from the process of building it.
 
-##  Tentative Schedule (May change to accommodate guest presenters & student needs)
+##  Tentative Schedule
 
  - Week 1
    - Wireframing

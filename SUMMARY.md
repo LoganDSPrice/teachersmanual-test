@@ -10,4 +10,5 @@
 * [Audit Requests](audit-requests.md)
 * [Setting Up Canvas](setting-up-canvas.md)
 * [Setting Up GitHub](setting-up-github.md)
+* [Syllabus](syllabus.md)
 

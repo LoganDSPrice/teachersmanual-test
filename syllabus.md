@@ -126,7 +126,3 @@ The final project will be to build one of your own ideas, and to record a brief 
  - Weeks 9, 10, & 11
    - Optional Topics
    - Final Project
-
-
-
-

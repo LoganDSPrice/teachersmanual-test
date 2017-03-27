@@ -125,4 +125,11 @@ The final project will be to build one of your own ideas, and to record a brief 
    - At Home: Workflow
  - Weeks 9, 10, & 11
    - Optional Topics
+     - Sending emails, SMS
+     - File uploads
+     - JavaScript & jQuery
+     - Search
+     - Social Networks
+     - Maps
+     - Etc
    - Final Project

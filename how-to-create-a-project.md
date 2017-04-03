@@ -7,7 +7,7 @@
     rails new fun_project --rc=fd
     ```
 
-You can peruse the [railsrc file](https://github.com/firstdraft/appdev_template/blob/master/fd) and the [template](https://github.com/firstdraft/appdev_template/blob/master/template.rb) that it invokes to get a sense of what it is doing for you.
+You can peruse the [railsrc file](https://github.com/firstdraft/appdev_template/blob/master/fd) and the [template](https://github.com/firstdraft/appdev_template/blob/master/template.rb) that it invokes to get a sense of what it is doing.
 
 Primarily, it adds some gems that we want to include in all projects, and it gets the project ready for `rails grade`ing.
 

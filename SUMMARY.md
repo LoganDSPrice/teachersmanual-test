@@ -11,4 +11,5 @@
 * [Setting Up Canvas](setting-up-canvas.md)
 * [Setting Up GitHub](setting-up-github.md)
 * [Syllabus](syllabus.md)
+* [How To Create A Project](how-to-create-a-project.md)
 

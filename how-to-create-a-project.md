@@ -10,3 +10,5 @@
 You can peruse the [railsrc file](https://github.com/firstdraft/appdev_template/blob/master/fd) and the [template](https://github.com/firstdraft/appdev_template/blob/master/template.rb) that it invokes to get a sense of what it is doing for you.
 
 Primarily, it adds some gems that we want to include in all projects, and it gets the project ready for `rails grade`ing.
+
+If you can think of other things we ought to include out of the box, please let me know.

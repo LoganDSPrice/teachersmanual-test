@@ -11,4 +11,4 @@ You can peruse the [railsrc file](https://github.com/firstdraft/appdev_template/
 
 Primarily, it adds some gems that we want to include in all projects, and it gets the project ready for `rails grade`ing.
 
-If you can think of other things we ought to include out of the box, please let me know.
+If there are other things that we ought to be including in projects out of the box, please let us know or make a PR.

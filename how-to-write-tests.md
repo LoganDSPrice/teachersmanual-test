@@ -19,4 +19,4 @@ Keep hints in I18n so that they don't clutter up the readability of tests, and s
 
 ### Avoid before, let
 
-No mystery guests. Tests should be readable in isolation.
+[Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest). Tests should be readable in isolation.

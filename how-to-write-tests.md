@@ -15,4 +15,4 @@ Perhaps teaching `id`, `label`, `for`, and styling with `#` earlier so that we c
 
 ### Hints in I18n
 
-Add hints to I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests.
+Keep hints in I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests.

@@ -2,7 +2,9 @@
 
 Testing style guide for `rails grade`
 
-http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range
+### Four-phase test
+
+Use clear, [four-phase tests](https://robots.thoughtbot.com/four-phase-test).
 
 ### Capybara selectors
 
@@ -20,3 +22,6 @@ Keep hints in I18n so that they don't clutter up the readability of tests, and s
 ### Avoid before, let
 
 [Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest). Tests should be readable in isolation.
+
+http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range
+

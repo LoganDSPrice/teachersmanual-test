@@ -23,5 +23,13 @@ Keep hints in I18n so that they don't clutter up the readability of tests, and s
 
 [Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest). Tests should be readable in isolation.
 
+### Factories
+
+I go back and forth over factories vs just ActiveRecord objects, since students know exactly what ActiveRecord objects are.
+
+Currently I lean towards using factories since, used right, [they produce minimally valid objects out-of-the-box](https://robots.thoughtbot.com/factories-should-be-the-bare-minimum), and so save so much code. More important than brevity, however, is that you can then re-define the attributes that are important to the test at hand, thereby drawing attention to them.
+
+### WIP notes below
+
 http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range
 

@@ -29,7 +29,7 @@ I go back and forth over factories vs just ActiveRecord objects, since students 
 
 Currently I lean towards using factories since, used right, [they produce minimally valid objects out-of-the-box](https://robots.thoughtbot.com/factories-should-be-the-bare-minimum), and so save so much code.
 
-More important than brevity, however, is that you can then re-define the attributes that are important to the test at hand, thereby drawing attention to them.
+More important than brevity, however, is that you can then define or re-define only the attributes that are important to the test at hand, thereby drawing attention to them.
 
 I think `create(:photo)` is intuitive enough for students to guess what it means; it's no more magical to them than the rest of the test code (Capybara methods, etc) that they aren't being explicitly taught.
 

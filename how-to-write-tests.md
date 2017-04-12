@@ -13,3 +13,6 @@ http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-
 
 Perhaps teaching `id`, `label`, `for`, and styling with `#` earlier so that we can select with it might be worthwhile.
 
+### Hints in I18n
+
+Add hints to I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests.

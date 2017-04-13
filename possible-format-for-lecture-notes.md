@@ -5,7 +5,7 @@ Show the evolution of a code demonstration, step by step
  - git tags?
  - git branches?
  - git commits?
- - [scroll through time](https://github.com/mathieudutour/scroll-through-time)? No, [seriously though](https://atom.io/packages/git-time-machine).
+ - [scroll through time](https://github.com/mathieudutour/scroll-through-time)? No, [seriously though](https://atom.io/packages/git-time-machine). We could develop almost a slide-deck like format for teachers to "click through" a git history, complete with presenter notes and "next up" (but editable code; changes would be stashed between each "slide").
 
 Example: Web Scraping
 

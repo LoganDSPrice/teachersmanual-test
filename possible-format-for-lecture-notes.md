@@ -4,9 +4,9 @@ Show the evolution of a code demonstration, step by step
 
  - git tags?
  - git branches?
- - [scroll through time](https://github.com/mathieudutour/scroll-through-time)? No, [seriously though](https://atom.io/packages/git-time-machine).
  - git commits?
- 
+ - [scroll through time](https://github.com/mathieudutour/scroll-through-time)? No, [seriously though](https://atom.io/packages/git-time-machine).
+
 Example: Web Scraping
 
 https://github.com/dsgn425-2017/web_scraper/commit/bc5de220b67906b81f4f7e4b049f874e0db9978a

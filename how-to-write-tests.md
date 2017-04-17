@@ -8,10 +8,10 @@ Use clear, [four-phase tests](https://robots.thoughtbot.com/four-phase-test).
 
 ### Capybara selectors
 
-- tried `has_content`: too much noise
-- tried `has_css` with id: unfamiliar (we could introduce it)
-- tried attribute selector, e.g. `[data-grade="occurrences"]`; too weird looking
-- settled on `expect(page).to have_css(".occurrences", text: 2)` for now since it is very familiar to them, but it feels like class is something that is used for too many other things.
+* tried `has_content`: too much noise
+* tried `has_css` with id: unfamiliar \(we could introduce it\)
+* tried attribute selector, e.g. `[data-grade="occurrences"]`; too weird looking
+* settled on `expect(page).to have_css(".occurrences", text: 2)` for now since it is very familiar to them, but it feels like class is something that is used for too many other things.
 
 Perhaps teaching `id`, `label`, `for`, and styling with `#` earlier so that we can select with it might be worthwhile.
 
@@ -31,15 +31,23 @@ Currently I lean towards using factories since, used right, [they produce minima
 
 More important than brevity, however, is that you can then define or re-define only the attributes that are important to the test at hand, thereby drawing attention to them.
 
-I think `create(:photo)` is intuitive enough for students to guess what it means; it's no more magical to them than the rest of the test code (Capybara methods, etc) that they aren't being explicitly taught.
+I think `create(:photo)` is intuitive enough for students to guess what it means; it's no more magical to them than the rest of the test code \(Capybara methods, etc\) that they aren't being explicitly taught.
 
 ### When stubbing external requests
 
- - Allow for `http` and `https`
- - Allow for mixed case
- - Allow for arbitrary additional query string parameters not specified by us (for example, access tokens)
+Testing external requests is tricky since forcing capybara to wait for a response will have inconsistent results.  Therefore, it's best to [stub external requests in and control the response in our test suite](https://robots.thoughtbot.com/how-to-stub-external-services-in-tests#create-a-fake-hello-sinatra).
+
+Typically, stubbed requests are added in one of the test helper files \(either `spec/spec_helper.rb` or `spec/rails_helper.rb` \) within an `Rspec.configure` block.
+
+Stubbed request should be as flexible and forgiving as possible:
+
+* Allow for `http` and `https`
+* Allow for mixed case
+* Allow for arbitrary additional query string parameters not specified by us \(for example, access tokens\)
 
 ### WIP notes below
 
-http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range
+[http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range](http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range)
+
+_Stubbed requests: Perhaps we create a method for each stubbed request and then call that method at the beginning of the test. Would that be clearer to the student?_
 

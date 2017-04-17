@@ -35,7 +35,7 @@ I think `create(:photo)` is intuitive enough for students to guess what it means
 
 ### When stubbing external requests
 
-Testing external requests is tricky since forcing capybara to wait for a response will have inconsistent results.  Therefore, it's best to [stub external requests in and control the response in our test suite](https://robots.thoughtbot.com/how-to-stub-external-services-in-tests#create-a-fake-hello-sinatra).
+Testing external requests is tricky since forcing capybara to wait for a response will have inconsistent results.  Therefore, it's best to [stub external requests and control the response in our test suite](https://robots.thoughtbot.com/how-to-stub-external-services-in-tests#create-a-fake-hello-sinatra).
 
 Typically, stubbed requests are added in one of the test helper files \(either `spec/spec_helper.rb` or `spec/rails_helper.rb` \) within an `Rspec.configure` block.
 

@@ -39,10 +39,11 @@ Testing external requests is tricky since forcing capybara to wait for a respons
 
 Typically, stubbed requests are added in one of the test helper files \(either `spec/spec_helper.rb` or `spec/rails_helper.rb` \) within an `Rspec.configure` block.
 
-Stubbed request should be as flexible and forgiving as possible:
+Stubbed request should be as flexible and forgiving as possible.  Use regexp to:
 
 * Allow for `http` and `https`
 * Allow for mixed case
+* Allow for dynamic url segments
 * Allow for arbitrary additional query string parameters not specified by us \(for example, access tokens\)
 
 ### WIP notes below

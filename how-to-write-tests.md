@@ -37,7 +37,7 @@ I think `create(:photo)` is intuitive enough for students to guess what it means
 
  - Allow for `http` and `https`
  - Allow for mixed case
- - Allow for arbitrary query string parameters (for example, access tokens)
+ - Allow for arbitrary additional query string parameters not specified by us (for example, access tokens)
 
 ### WIP notes below
 

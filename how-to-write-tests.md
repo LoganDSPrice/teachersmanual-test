@@ -33,6 +33,12 @@ More important than brevity, however, is that you can then define or re-define o
 
 I think `create(:photo)` is intuitive enough for students to guess what it means; it's no more magical to them than the rest of the test code (Capybara methods, etc) that they aren't being explicitly taught.
 
+### When stubbing external requests
+
+ - Allow for `http` and `https`
+ - Allow for mixed case
+ - Allow for arbitrary query string parameters (for example, access tokens)
+
 ### WIP notes below
 
 http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range

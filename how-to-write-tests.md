@@ -82,7 +82,7 @@ This also allows for tailoring copy more instructively to each individual spec, 
 
 ### Hints
 
-You can add a hint to each spec to give students just-in-time help even when we aren't standing next time them. This is next-level rubber-ducky stuff.
+You can add hints to each spec to give students just-in-time help even when we aren't standing next time them. This is next-level rubber-ducky stuff.
 
 For example,
 

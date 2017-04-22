@@ -6,14 +6,75 @@ Testing style guide for `rails grade`
 
 Use clear, [four-phase tests](https://robots.thoughtbot.com/four-phase-test).
 
-### Capybara selectors
+### Tests should be readable in isolation
 
-* tried `has_content`: too much noise
-* tried `has_css` with id: unfamiliar \(we could introduce it\)
-* tried attribute selector, e.g. `[data-grade="occurrences"]`; too weird looking
-* settled on `expect(page).to have_css(".occurrences", text: 2)` for now since it is very familiar to them, but it feels like class is something that is used for too many other things.
+Students should be able to click "Examine Test" and read and understand a test easily. Therefore, each test should be easily understood in isolation.
 
-Perhaps teaching `id`, `label`, `for`, and styling with `#` earlier so that we can select with it might be worthwhile.
+#### Avoid `before`, `let`
+
+[Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest).
+
+#### Avoid nesting `describe`/`feature`, `context`/`scenario`
+
+##### Bad
+
+```ruby
+feature "Flexible square" do
+  context "with input 5" do
+    it "works", points: 2, hint: h("params_are_strings") do
+      visit "/flexible/square/5"
+
+      expect(page).to have_content(25)
+    end
+  end
+
+  context "with input 42" do
+    it "works", points: 4, hint: h("params_are_strings") do
+      visit "/flexible/square/42"
+
+      expect(page).to have_content(1764)
+    end
+  end
+end
+```
+
+##### Better
+
+```ruby
+feature "Flexible square" do
+  it "works with input 5", points: 2, hint: h("params_are_strings") do
+    visit "/flexible/square/5"
+
+    expect(page).to have_content(25)
+  end
+
+  it "works with input 42", points: 4, hint: h("params_are_strings") do
+    visit "/flexible/square/42"
+
+    expect(page).to have_content(1764)
+  end
+end
+```
+
+##### Best
+
+```ruby
+feature "Flexible square" do
+  it "works with input 5", points: 2, hint: h("params_are_strings") do
+    visit "/flexible/square/5"
+
+    expect(page).to have_content(25)
+  end
+end
+
+feature "Flexible square" do
+  it "works with input 42", points: 4, hint: h("params_are_strings") do
+    visit "/flexible/square/42"
+
+    expect(page).to have_content(1764)
+  end
+end
+```
 
 ### Hints
 
@@ -70,10 +131,6 @@ What's going on above:
       expect(page).to have_content(1799.4564)
     end
     ```
-    
-### Avoid before, let
-
-[Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest). Tests should be readable in isolation.
 
 ### Use factories
 
@@ -84,6 +141,15 @@ Currently I lean towards using factories since, used right, [they produce minima
 More important than brevity, however, is that you can then define or re-define only the attributes that are important to the test at hand, thereby drawing attention to them.
 
 I think `create(:photo)` is intuitive enough for students to guess what it means; it's no more magical to them than the rest of the test code \(Capybara methods, etc\) that they aren't being explicitly taught.
+
+### Capybara selectors
+
+* tried `has_content`: too much noise
+* tried `has_css` with id: unfamiliar \(we could introduce it\)
+* tried attribute selector, e.g. `[data-grade="occurrences"]`; too weird looking
+* settled on `expect(page).to have_css(".occurrences", text: 2)` for now since it is very familiar to them, but it feels like class is something that is used for too many other things.
+
+Perhaps teaching `id`, `label`, `for`, and styling with `#` earlier so that we can select with it might be worthwhile.
 
 ### When stubbing external requests
 

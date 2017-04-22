@@ -18,7 +18,7 @@ Perhaps teaching `id`, `label`, `for`, and styling with `#` earlier so that we c
 
 ### Hints
 
-You can add a hint to each spec to give students just-in-time help even when we aren't standing next time them. This is awesome, next-level rubber-ducky stuff.
+You can add a hint to each spec to give students just-in-time help even when we aren't standing next time them. This is next-level rubber-ducky stuff.
 
 For example,
 

@@ -94,7 +94,7 @@ end
 
 What's going on above:
 
-- The `hint` metadata is where we can provide help. It accepts a string or array of strings.
+- You can provide additional help to the student by optionally including a `hint` with the `it` or `scenario` method. The value should be a string or array of strings.
 - Keep hints in I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests:
 
     ```yml

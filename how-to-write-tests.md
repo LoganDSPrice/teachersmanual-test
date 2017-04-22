@@ -32,7 +32,6 @@ end
 
 What's going on above:
 
-- The `points` metadata is giving a weight to the spec for grading purposes. Default is 0.
 - The `hint` metadata is where we can provide help. It accepts a string or array of strings.
 - Keep hints in I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests:
 
@@ -47,13 +46,27 @@ What's going on above:
                           `placeholder=""`, etc, are just helpful attributes to use to be user-friendly. `name=""` is the functional one.
     ```
     
-- Store hints under the keys `en.hints`.
+- Store hints under keys under `en.hints`.
 - You can use GitHub-flavored Markdown.
 - To further reduce clutter, there is a helper method `h()` in `spec_helper.rb` which makes it easy to add multiple hints from I18n:
 
     ```ruby
     def h(hint_identifiers)
       hint_identifiers.split.map { |identifier| I18n.t("hints.#{identifier}") }
+    end
+    ```
+    
+    So you can just provide a single string with hint identifiers separated by spaces:
+    
+    ```ruby
+    it "works with 42.42", points: 4, hint: h("label_for_input params_are_strings") do
+      visit "/square/new"
+
+      fill_in "Enter a number", with: 42.42
+
+      click_button "Calculate square"
+
+      expect(page).to have_content(1799.4564)
     end
     ```
     

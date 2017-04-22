@@ -10,11 +10,13 @@ Use clear, [four-phase tests](https://robots.thoughtbot.com/four-phase-test).
 
 Students should be able to click "Examine Test" and read and understand a test easily. Therefore, each test should be easily understood in isolation.
 
+Therefore,
+
 #### Avoid `before`, `let`
 
 [Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest).
 
-#### Avoid nesting `describe`/`feature`, `context`/`scenario`
+#### Avoid deeply nesting `describe`/`feature`, `context`, `it`/`scenario`
 
 ##### Bad
 

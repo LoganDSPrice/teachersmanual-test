@@ -56,7 +56,7 @@ What's going on above:
     end
     ```
     
-    So you can just provide a single string with hint identifiers separated by spaces:
+    So you can just provide a single string with the I18n keys of multiple hints separated by spaces:
     
     ```ruby
     it "works with 42.42", points: 4, hint: h("label_for_input params_are_strings") do

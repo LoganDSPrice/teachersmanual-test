@@ -78,6 +78,8 @@ feature "Flexible square" do
 end
 ```
 
+This also allows for tailoring copy more instructively to each individual spec, rather than shoehorning it to fit a DRYer structure.
+
 ### Hints
 
 You can add a hint to each spec to give students just-in-time help even when we aren't standing next time them. This is next-level rubber-ducky stuff.

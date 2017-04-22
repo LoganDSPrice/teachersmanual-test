@@ -36,6 +36,8 @@ What's going on above:
 - Keep hints in I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests:
 
     ```yml
+    # config/locales/en.yml
+    
     en:
       hints:
         names_for_inputs: |

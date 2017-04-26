@@ -5,3 +5,15 @@
 Sign up for a free org, then request a discount here:
 
 https://education.github.com/discount_requests/new
+
+## Remove application restrictions
+
+![](/assets/Screen Shot 2017-05-11 at 7.26.54 AM.png)
+
+So Cloud9 can see private repos.
+
+## Make team member default permission "View"
+
+![](/assets/Screen Shot 2017-05-11 at 7.31.21 AM.png)
+
+So students can't create repos after teams are created for access to private projects.

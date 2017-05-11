@@ -12,7 +12,7 @@ https://education.github.com/discount_requests/new
 
 So Cloud9 can see private repos.
 
-## Make team member default permission "View"
+## Set member privileges
 
 ![](/assets/Screen Shot 2017-05-11 at 7.31.21 AM.png)
 

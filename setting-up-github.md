@@ -10,4 +10,8 @@ https://education.github.com/discount_requests/new
 
 ![](/assets/Screen Shot 2017-05-11 at 7.26.54 AM.png)
 
+So Cloud9 can see private repos.
+
 ## Make team member default permission "View"
+
+So students can't create repos.

@@ -14,4 +14,6 @@ So Cloud9 can see private repos.
 
 ## Make team member default permission "View"
 
+![](/assets/Screen Shot 2017-05-11 at 7.31.21 AM.png)
+
 So students can't create repos after teams are created for access to private projects.

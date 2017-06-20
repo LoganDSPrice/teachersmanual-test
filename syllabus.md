@@ -27,12 +27,15 @@ You will ultimately build a functional prototype of your own app idea. To do thi
 ### Instructors
 
  - Raghu Betina 
-   - Email: 
+   - Email:
    - Office Hours: 
- - Arjun Venkataswamy
+ - 
    - Email: 
-   - Office Hours: TBD
-
+   - Office Hours:
+ -
+   - Email:
+   - Office Hours:
+   
 ## Required Materials
 
 ### Software

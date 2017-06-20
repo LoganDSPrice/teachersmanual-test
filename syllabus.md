@@ -70,9 +70,9 @@ Attendance of office hours will be noted and may make the instructor more sympat
 
 ## Homework (45% of your grade, 5% each)
 
-Homeworks will be posted each week by noon of the day following class. Homeworks will be due at the time that your section begins. So, if you have class on Wednesday the 3rd at 1:30pm, then homework will be posted by Thursday the 4th at noon, and will be due on Wednesday the 10th at 1:30pm.
+Homeworks will be posted each week by noon of the day following class. Homeworks will be due at the time that your section begins. So, if you have class on Wednesday the 21strd at 6:00pm, then homework will be posted by Thursday the 22nd at noon, and will be due on Wednesday the 28th at 6:00pm.
 
-You will be able to get instant and automatic feedback on most of the homeworks as you work. If you want any partial credit on homeworks, you must schedule a one-on-one appointment to go through your solutions and discuss anything that's fuzzy. The appointments are typically remote via Google Hangout.
+You will be able to get instant and automatic feedback on most of the homeworks as you work. If you want any partial credit on homeworks, you must schedule a one-on-one appointment with an instructor to go through your solutions and discuss anything that's fuzzy. The appointments are typically remote via Google Hangout.
 
 The primary objective of homeworks is to expose places where your understanding of the material is shaky early, so that you can meet with us and clarify it. Every concept in this course builds upon the one before it, so it is essential that you not fall behind. We strongly recommend taking advantage of this unique resource; we are lucky to have professional developers acting as assistant instructors.
 

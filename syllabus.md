@@ -62,7 +62,7 @@ What you can expect from us in return is a lot of support. We know it's a lot, a
 
 ## Attendance (10% of your grade)
 
-Class attendance is mandatory, and you are expected to be on time. To account for the vagaries of life, you will be allowed to miss one class with no penalty. After that, 1% will be deducted from your final grade for each unexcused absence.
+Class attendance is mandatory, and you are expected to be on time. 1% will be deducted from your final grade for each unexcused absence.
 
 An excused absence is a documented medical emergency, religious holiday, etc. Get in touch with the instructor immediately if you foresee any such absences.
 

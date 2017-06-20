@@ -26,13 +26,13 @@ You will ultimately build a functional prototype of your own app idea. To do thi
 
 ### Instructors
 
- - Raghu Betina 
+ - Instructor
    - Email:
    - Office Hours: 
- - 
+ - Instructor
    - Email: 
    - Office Hours:
- -
+ - Instructor
    - Email:
    - Office Hours:
    
@@ -40,7 +40,7 @@ You will ultimately build a functional prototype of your own app idea. To do thi
 
 ### Software
 
-You will receive a detailed guide to setting up a development environment on your Mac or Windows laptop. All required software is free.
+You will receive a detailed guide to setting up a development environment on your computer. All required software is free.
 
 ## Course Format
 

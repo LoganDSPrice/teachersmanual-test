@@ -58,7 +58,7 @@ This course is designed for a beginner who has never programmed before. It is ou
 
 Note: it's *possible*, but not always *easy*. If you have never seen a line of code before, you are going to be learning a lot of new things all at once, and so should plan to spend a significant amount of time. If you already have some programming experience, you may have to spend less time initially while we learn basics; but once we get into Rails, it will likely be all new to you too.
 
-What you can expect from us in return is a lot of support. We know it's a lot, and we're here for you -- one-on-one appointments, review sessions, etc. We all will help each other on the class discussion board. There is no such thing as a dumb question; we're all beginners here, learning together.
+What you can expect from us in return is a lot of support. We know it's a lot, and we're here for you — one-on-one appointments, review sessions, etc. We all will help each other on the class discussion board. There is no such thing as a dumb question; we're all beginners here, learning together.
 
 ## Attendance (10% of your grade)
 
@@ -74,7 +74,7 @@ Homeworks will be posted each week by noon of the day following class. Homeworks
 
 You will be able to get instant and automatic feedback on most of the homeworks as you work. If you want any partial credit on homeworks, you must schedule a one-on-one appointment with an instructor to go through your solutions and discuss anything that's fuzzy. The appointments are typically remote via Google Hangout. **You are allowed to book up to 30 minutes 1-on-1 with an instructor every week.**
 
-The primary objective of homeworks is to expose places where your understanding of the material is shaky early, so that you can meet with us and clarify it. Every concept in this course builds upon the one before it, so it is essential that you not fall behind. We strongly recommend taking advantage of this unique resource; we are lucky to have professional developers acting as assistant instructors.
+The primary objective of homeworks is to expose places where your understanding of the material is shaky early, so that you can meet with us and clarify it. Every concept in this course builds upon the one before it, so it is essential that you not fall behind. **We strongly recommend taking advantage of this unique resource; we are lucky to have professional developers acting as assistant instructors.**
 
 You are allowed and encouraged to work in study groups on the homeworks, but you must type up your final solutions yourself. In other words, no copy-pasting.
 

@@ -44,7 +44,7 @@ You will receive a detailed guide to setting up a development environment on you
 
 ## Course Format
 
-This course is entirely project-driven. We will build a series of applications together in class. We will start with a simple idea and learn just what we need about various technologies (HTML, CSS, Ruby, Rails) to make that idea real.
+This course is entirely project-driven. We will build a series of applications together in class. We will start with a simple idea and learn just what we need about various technologies (Database architecture, hosting, deployment, Git, HTML, CSS, Ruby, Rails) to make that idea real.
 
 We will then build a slightly more complicated idea, and deepen our knowledge of each topic. And then an even more complicated idea. In this way, we will spiral across topics picking up essential, applicable knowledge; what we're not going to do are deep theoretical dives into each topic, one after the other, without ever getting to build real stuff.
 
@@ -70,17 +70,17 @@ Attendance of office hours will be noted and may make the instructor more sympat
 
 ## Homework (45% of your grade, 5% each)
 
-Homeworks will be posted each week by noon of the day following class. Homeworks will be due at the time that your section begins. So, if you have class on Wednesday the 21strd at 6:00pm, then homework will be posted by Thursday the 22nd at noon, and will be due on Wednesday the 28th at 6:00pm.
+Homeworks will be posted each week by noon of the day following class. Homeworks will be due at the time that your section begins. So, if you have class on Wednesday the 21st at 6:00pm, then homework will be posted by Thursday the 22nd at noon, and will be due on Wednesday the 28th at 6:00pm.
 
 You will be able to get instant and automatic feedback on most of the homeworks as you work. If you want any partial credit on homeworks, you must schedule a one-on-one appointment with an instructor to go through your solutions and discuss anything that's fuzzy. The appointments are typically remote via Google Hangout. **You are allowed to book up to 30 minutes 1-on-1 with an instructor every week.**
 
-The primary objective of homeworks is to expose places where your understanding of the material is shaky early, so that you can meet with us and clarify it. Every concept in this course builds upon the one before it, so it is essential that you not fall behind. **We strongly recommend taking advantage of this unique resource; we are lucky to have professional developers acting as assistant instructors.**
+The primary objective of the homeworks is to be hard and to expose places where your understanding of the material is shaky early, so that you can book appointments with us to clarify it. Every concept in this course builds upon the one before it, so it is essential that you not fall behind. **We strongly recommend taking advantage of this unique resource; we are lucky to have professional developers acting as assistant instructors.**
 
 You are allowed and encouraged to work in study groups on the homeworks, but you must type up your final solutions yourself. In other words, no copy-pasting.
 
 ## Midterm (25% of your grade)
 
-The midterm exam will occupy one-half of Week 6 class. It will be a practical exam; you will download broken applications and fix them. The format will be exactly the same as your homeworks.
+The midterm exam will occupy one-half of Week 6 class. It will be a practical exam; you will download partially complete/buggy applications and fix them. The format will be exactly the same as your homeworks.
 
 ## Final Project (20% of your grade)
 

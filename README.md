@@ -1,6 +1,6 @@
 # Teacher's Manual
 
-Collected notes on how to teach Application Development effectively.
+Notes on how to teach Application Development effectively.
 
 * [Pair Teaching](pair-teaching.md)
 * [Eliciting Questions During Class](eliciting-questions-during-class.md)

@@ -15,3 +15,9 @@ I break down questions into two categories: blockers vs non-blockers.
 Blockers are logistical or basic conceptual questions that, until answered, will completely stall a student. Since our students often only have one or two evenings per week that they carve out for homework, it's essential to try and answer blockers as soon as possible (and ensure that other students don't incorrectly answer them).
 
 Non-blockers are questions that are not essential to completing the homework, and we can leave these unanswered for longer and allow students to have a chance to answer them for one another.
+
+## Escalation
+
+There will oftentimes be questions that you aren't 100% sure how to answer, especially considering the unconventional beginner-flavored version of Ruby and Rails that we teach.
+
+If you see a question you're not sure how to answer, you should feel free to take a stab at answering it. Even if you don't, though, the important thing is to escalate the question by mentioning it in Slack so that someone else can handle it.

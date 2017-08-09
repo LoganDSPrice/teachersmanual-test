@@ -20,4 +20,4 @@ Non-blockers are questions that are not essential to completing the homework, an
 
 There will oftentimes be questions that you aren't 100% sure how to answer, especially considering the unconventional beginner-flavored version of Ruby and Rails that we teach.
 
-If you see a question you're not sure how to answer, **the important thing is to escalate the question by mentioning it in Slack** to draw other instructors' attention to it. You should feel free to take a stab at answering; others can expand on/edit your answer if needed.
+If you see a question that you're not sure how to answer, **the important thing is to escalate the question by mentioning it in Slack** to draw other instructors' attention to it. You should feel free to take a stab at answering; others can expand on/edit your answer if needed.

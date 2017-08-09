@@ -12,7 +12,7 @@ You could also download Piazza's mobile app for your phone and set up Push Notif
 
 I break down questions into two categories: blockers vs non-blockers. 
 
-Blockers are logistical or basic conceptual questions that, until answered, will completely stall a student. Since our students often only have one or two evenings per week that they carve out for homework, it's essential to try and answer blockers as soon as possible (and ensure that other students don't incorrectly answer them).
+Blockers are logistical or basic conceptual questions that, until answered, will completely stall a student. Since our students often only have one or two evenings per week that they carve out for homework, **it's essential to try and answer blockers as soon as possible** (and ensure that other students don't incorrectly answer them). This why we bother to set up notifications as described above.
 
 Non-blockers are questions that are not essential to completing the homework, and we can leave these unanswered for longer and allow students to have a chance to answer them for one another.
 

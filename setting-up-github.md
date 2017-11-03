@@ -12,4 +12,4 @@ https://education.github.com/discount_requests/new
 
 So Cloud9 can see private repos.
 
-## Set member privileges to "None"
+## Set default member privileges to "None"

@@ -10,4 +10,4 @@ It's likely because an asset is being loaded:
 <img src="hi">
 ```
 
-on a page at `/things/:zebra` will cause a request to `/things/hi` for the image asset.
+on a page at `/things/:zebra` will cause a request to `/things/hi` for the image asset, and `:zebra => "hi"` will mysteriously appear in the `params` hash — for the _second_ request/response.

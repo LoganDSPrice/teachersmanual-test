@@ -11,3 +11,5 @@ It's likely because an asset is being loaded with a relative path:
 ```
 
 without a leading slash (or an absolute URL) as the source on a page at `/things/:zebra` will cause a request to `/things/hi` for the image asset, and `:zebra => "hi"` will mysteriously appear in the `params` hash — for the _second_ request/response.
+
+If that action includes a `.find()`, an exception will be thrown.

@@ -4,10 +4,10 @@
 
 When you're helping a student debug and using the server log, do you see a mysterious double request going out without any redirects?
 
-It's likely because an asset is being loaded:
+It's likely because an asset is being loaded with a relative path:
 
 ```
 <img src="hi">
 ```
 
-on a page at `/things/:zebra` will cause a request to `/things/hi` for the image asset, and `:zebra => "hi"` will mysteriously appear in the `params` hash — for the _second_ request/response.
+without a leading slash (or an absolute URL) as the source on a page at `/things/:zebra` will cause a request to `/things/hi` for the image asset, and `:zebra => "hi"` will mysteriously appear in the `params` hash — for the _second_ request/response.

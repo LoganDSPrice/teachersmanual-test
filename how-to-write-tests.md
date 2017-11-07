@@ -86,7 +86,7 @@ Try to stick to one expectation per test, except when absolutely necessary (e.g.
 
 Ref:
 
-http://www.betterspecs.org/#single
+https://devblast.com/b/ruby-testing-with-rspec-one-expectation-per-test
 
 ### Hints
 

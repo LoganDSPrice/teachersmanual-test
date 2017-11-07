@@ -80,6 +80,14 @@ end
 
 This also allows for tailoring copy more instructively to each individual spec, rather than shoehorning it to fit a DRYer structure.
 
+### One expectation per test
+
+Try to stick to one expectation per test, except when absolutely necessary (e.g. to ensure proper setup).
+
+Ref:
+
+http://www.betterspecs.org/#single
+
 ### Hints
 
 You can add hints to each spec to give students just-in-time help even when we aren't standing next time them. This is next-level rubber-ducky stuff.

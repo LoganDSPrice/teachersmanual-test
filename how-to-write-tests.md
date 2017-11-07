@@ -88,6 +88,14 @@ Ref:
 
 https://devblast.com/b/ruby-testing-with-rspec-one-expectation-per-test
 
+### Customized Failure Messages
+
+Use customized failure messages for any `expect`s whose messages are not 100% self-explanatory.
+
+Ref:
+
+https://relishapp.com/rspec/rspec-expectations/docs/customized-message
+
 ### Hints
 
 You can add hints to each spec to give students just-in-time help even when we aren't standing next time them. This is next-level rubber-ducky stuff.

@@ -16,7 +16,7 @@ Therefore,
 
 [Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest).
 
-#### Use a `describe` block with a target URL and a single descriptive test nested inside  
+#### Use a `describe` block with a target URL and a single descriptive test nested inside
 
 **Bad**
 
@@ -106,6 +106,85 @@ end
 
 This also allows for tailoring copy more instructively to each individual spec, rather than shoehorning it to fit a DRYer structure.
 
+#### Test features progressively to break a problem into bite-size steps 
+
+Add tests for the presence of hardcoded copy or inputs/labels before testing for behavior. This approach lets students better narrow down what they're missing in their code. 
+
+**Bad**
+
+```ruby
+describe "/photos/new" do
+  it "creates a photo when submitted", points: 3, hint: h("button_type") do
+    initial_number_of_photos = Photo.count
+
+    visit "/photos/new"
+
+    click_on "Create Photo"
+
+    final_number_of_photos = Photo.count
+
+    expect(final_number_of_photos).to eq(initial_number_of_photos + 1)
+  end
+end
+```
+
+**Good**
+
+```ruby
+describe "/photos/new" do
+  it "has a form", points: 1 do
+    visit "/photos/new"
+
+    expect(page).to have_css("form", count: 1)
+  end
+end
+
+describe "/photos/new" do
+  it "has a label for 'Caption'", points: 1, hint: h("copy_must_match label_for_input") do
+    visit "/photos/new"
+
+    expect(page).to have_css("label", text: "Caption")
+  end
+end
+
+describe "/photos/new" do
+  it "has a label for 'Image URL'", points: 1, hint: h("copy_must_match label_for_input") do
+    visit "/photos/new"
+
+    expect(page).to have_css("label", text: "Image URL")
+  end
+end
+
+describe "/photos/new" do
+  it "has two inputs", points: 1, hint: h("label_for_input") do
+    visit "/photos/new"
+
+    expect(page).to have_css("input", count: 2)
+  end
+end
+
+describe "/photos/new" do  it "has a button to 'Create Photo'", points: 1, hint: h("copy_must_match") do
+    visit "/photos/new"
+
+    expect(page).to have_css("button", text: "Create Photo")
+  end
+end
+
+describe "/photos/new" do
+  it "creates a photo when submitted", points: 3, hint: h("button_type") do
+    initial_number_of_photos = Photo.count
+
+    visit "/photos/new"
+
+    click_on "Create Photo"
+
+    final_number_of_photos = Photo.count
+
+    expect(final_number_of_photos).to eq(initial_number_of_photos + 1)
+  end
+end
+```
+
 ### One expectation per test
 
 Try to stick to one expectation per test, except when absolutely necessary \(e.g. to ensure proper setup\).
@@ -157,6 +236,7 @@ What's going on above:
 * Store hints under keys under `en.hints`.
 
 * You can use GitHub-flavored Markdown.
+
 * To further reduce clutter, there is a helper method `h()` in `spec_helper.rb` which makes it easy to add multiple hints from I18n:
 
   ```ruby

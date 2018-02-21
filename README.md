@@ -15,3 +15,5 @@ Notes on how to teach Application Development effectively.
 * [How To Create A Project](how-to-create-a-project.md)
 * [Possible Format For Lecture Notes](possible-format-for-lecture-notes.md)
 
+
+

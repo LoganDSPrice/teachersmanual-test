@@ -16,22 +16,48 @@ Therefore,
 
 [Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest).
 
+#### Use a `describe` block with a target URL and a single descriptive test nested inside  
+
+**Bad**
+
+```ruby
+context "with input 5" do
+  it "works", points: 2, hint: h("params_are_strings") do
+    visit "/flexible/square/5"
+
+    expect(page).to have_content(25)
+  end
+end
+```
+
+**Good**
+
+```ruby
+describe "/flexible/square/5" do
+  it "works with input 5", points: 2, hint: h("params_are_strings") do
+    visit "/flexible/square/5"
+
+    expect(page).to have_content(25)
+  end
+end
+```
+
 #### Avoid deeply nesting `describe`/`feature`, `context`, `it`/`scenario`
 
 ##### Bad
 
 ```ruby
 feature "Flexible square" do
-  context "with input 5" do
-    it "works", points: 2, hint: h("params_are_strings") do
+  describe "/flexible/square/42" do
+    it "works with input 5", points: 2, hint: h("params_are_strings") do
       visit "/flexible/square/5"
 
       expect(page).to have_content(25)
     end
   end
 
-  context "with input 42" do
-    it "works", points: 4, hint: h("params_are_strings") do
+  describe "/flexible/square/42" do
+    it "works with input 5", points: 4, hint: h("params_are_strings") do
       visit "/flexible/square/42"
 
       expect(page).to have_content(1764)
@@ -43,7 +69,7 @@ end
 ##### Better
 
 ```ruby
-feature "Flexible square" do
+describe "/flexible/square/5" do
   it "works with input 5", points: 2, hint: h("params_are_strings") do
     visit "/flexible/square/5"
 
@@ -61,7 +87,7 @@ end
 ##### Best
 
 ```ruby
-feature "Flexible square" do
+describe "/flexible/square/5" do
   it "works with input 5", points: 2, hint: h("params_are_strings") do
     visit "/flexible/square/5"
 
@@ -69,7 +95,7 @@ feature "Flexible square" do
   end
 end
 
-feature "Flexible square" do
+describe "/flexible/square/5" do
   it "works with input 42", points: 4, hint: h("params_are_strings") do
     visit "/flexible/square/42"
 
@@ -82,11 +108,11 @@ This also allows for tailoring copy more instructively to each individual spec, 
 
 ### One expectation per test
 
-Try to stick to one expectation per test, except when absolutely necessary (e.g. to ensure proper setup).
+Try to stick to one expectation per test, except when absolutely necessary \(e.g. to ensure proper setup\).
 
 Ref:
 
-https://devblast.com/b/ruby-testing-with-rspec-one-expectation-per-test
+[https://devblast.com/b/ruby-testing-with-rspec-one-expectation-per-test](https://devblast.com/b/ruby-testing-with-rspec-one-expectation-per-test)
 
 ### Customized Failure Messages
 
@@ -94,7 +120,7 @@ Use customized failure messages for any `expect`s whose messages are not 100% se
 
 Ref:
 
-https://relishapp.com/rspec/rspec-expectations/docs/customized-message
+[https://relishapp.com/rspec/rspec-expectations/docs/customized-message](https://relishapp.com/rspec/rspec-expectations/docs/customized-message)
 
 ### Hints
 
@@ -112,12 +138,12 @@ end
 
 What's going on above:
 
-- You can provide additional help to the student by optionally including a `hint` with the `it` or `scenario` method. The value should be a string or array of strings.
-- Keep hints in I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests:
+* You can provide additional help to the student by optionally including a `hint` with the `it` or `scenario` method. The value should be a string or array of strings.
+* Keep hints in I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests:
 
-    ```yml
+  ```yml
     # config/locales/en.yml
-    
+
     en:
       hints:
         names_for_inputs: |
@@ -126,21 +152,22 @@ What's going on above:
                           `name=""` is the crucial, functional attribute of an `<input>` that determines what the user's input gets labeled as in the query string, and therefore what key it gets stored under in the `params` hash, and therefore how you will access it in your next RCAV.
 
                           `placeholder=""`, etc, are just helpful attributes to use to be user-friendly. `name=""` is the functional one.
-    ```
-    
-- Store hints under keys under `en.hints`.
-- You can use GitHub-flavored Markdown.
-- To further reduce clutter, there is a helper method `h()` in `spec_helper.rb` which makes it easy to add multiple hints from I18n:
+  ```
 
-    ```ruby
+* Store hints under keys under `en.hints`.
+
+* You can use GitHub-flavored Markdown.
+* To further reduce clutter, there is a helper method `h()` in `spec_helper.rb` which makes it easy to add multiple hints from I18n:
+
+  ```ruby
     def h(hint_identifiers)
       hint_identifiers.split.map { |identifier| I18n.t("hints.#{identifier}") }
     end
-    ```
-    
-    So you can just provide a single string with the I18n keys of multiple hints separated by spaces:
-    
-    ```ruby
+  ```
+
+  So you can just provide a single string with the I18n keys of multiple hints separated by spaces:
+
+  ```ruby
     it "works with 42.42", points: 4, hint: h("label_for_input params_are_strings") do
       visit "/square/new"
 
@@ -150,7 +177,7 @@ What's going on above:
 
       expect(page).to have_content(1799.4564)
     end
-    ```
+  ```
 
 ### Use factories
 
@@ -189,3 +216,4 @@ Stubbed request should be as flexible and forgiving as possible. Use regexp to:
 [http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range](http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range)
 
 _Stubbed requests: Perhaps we create a method for each stubbed request and then call that method at the beginning of the test. Would that be clearer to the student?_
+

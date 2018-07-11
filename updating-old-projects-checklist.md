@@ -28,3 +28,5 @@
 
  - Make sure the Git url in project.rake is updated from original syntax (git@github.com:appdev-projects/photogram-auth.git) to read-only syntax (git://github.com/appdev-projects/photogram-auth.git)
  - Make sure the READMEs don't have students run the app with bin/server, they should click the Run Project button instead
+ 
+ - gitignire `cloud9_plugins.sh`

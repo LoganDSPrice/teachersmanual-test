@@ -18,13 +18,13 @@
  - Make sure the project setup steps in README are [modern](https://github.com/firstdraft/appdev_template/blob/master/files/README.md)
 
  - Make sure Hash#[] changes to Hash#fetch in existing code
- - Make sure tempaltes are explicity rendered with the folder name, e.g. render("photo_templates/show.html.erb")
+ - Make sure templates are explicity rendered with the folder name, e.g. render("photo_templates/show.html.erb")
  - Make sure tests are all isolated in their own describe block that contains the action path, e.g "/coffee_beans" instead of "coffee beans index"
  - Make sure all tests that have only_path: true get replaced with ignore_query: true
  - Ensure that CSRF is turned off and authentication tokens are removed from all forms
  - Get rid of //= require_tree . in application.js
  - Get rid of *= require_tree . in application.css
- - Make sure project.rake has an updated org name of 'appdev-projects' and that the app name is update from underscores to dashes, e.g. app-name instead of app_name
+ - Make sure project.rake looks [like this](https://github.com/firstdraft/appdev_template/blob/master/files/project.rake) and that the app name is update from underscores to dashes, e.g. app-name instead of app_name
 
  - Make sure the Git url in project.rake is updated from original syntax (git@github.com:appdev-projects/photogram-auth.git) to read-only syntax (git://github.com/appdev-projects/photogram-auth.git)
  - Make sure the READMEs don't have students run the app with bin/server, they should click the Run Project button instead

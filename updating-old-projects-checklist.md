@@ -6,9 +6,9 @@
  - Ensure `whitelist.yml` is gitignored
 
 
- - Add gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist" to the development and test groups
- - Add gem "draft_log", github: "firstdraft/draft_log"to the development and test groups
- - Add gem "better_errors"to the development and test groups
+ - Add `gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"` to the development and test groups
+ - Add `gem "draft_log", github: "firstdraft/draft_log"` to the development and test groups
+ - Add `gem "better_errors"` and `gem "binding_of_caller"` to the development and test groups
  - Add a file [nicer_errors.rb](https://github.com/firstdraft/appdev_template/blob/master/files/nicer_errors.rb) to `config/initializers`
  - Replace the out-of-the-box backtrack_silencers.rb with [this](https://github.com/firstdraft/appdev_template/blob/master/template.rb#L227)
  - `bundle update`

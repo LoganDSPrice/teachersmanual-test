@@ -16,7 +16,6 @@ Notes on how to teach Application Development effectively.
 * [How To Create A Project](how-to-create-a-project.md)
 * [Possible Format For Lecture Notes](possible-format-for-lecture-notes.md)
 * [Configuring Cloud9](configuring-cloud9.md)
-* [Beginner-friendly Code Style Guide](beginner-friendly-code-style-guide.md)
 * [Updating old projects checklist](updating-old-projects-checklist.md)
 
 

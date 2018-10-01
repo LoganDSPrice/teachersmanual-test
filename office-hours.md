@@ -22,6 +22,6 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
     - Make the event re-occurring if you want to, until the end of the quarter.
  - Students can now book you at [https://appdevofficehours.youcanbook.me](https://appdevofficehours.youcanbook.me) and a booking will automatically appear in your Google Calendar. Try it out yourself.
  
-In general, try not to leave students hanging — they should walk away from an office hours appointment with most of the questions that they came in with answered. Remember our goal here is not to produce professional developers, so be deliberate about leaving them with open questions to struggle with.
+In general, try not to leave students hanging — they should walk away from an office hours appointment with most of the questions that they came in with answered. Remember our goal here is not to produce professional developers, so be deliberate about which questions you leave open for them to struggle with, and which ones you resolve with them.
 
 It is good to give them new things to think about, however, and then have them book another appointment to discuss after they've done some work — e.g. researching an API for their project.

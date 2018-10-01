@@ -8,7 +8,7 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
 
  - Click the gear icon to get to "Settings".
  - In the left sidebar, click "Add calendar" > "New Calendar".
- - Name the new calendar "AppDev Office Hours" (or whatever you prefer).
+ - Name the new calendar "[YOUR NAME]'s AppDev" (or whatever you prefer).
  - Configure your new calendar (click on its name in the left sidebar).
     - Share with specific people — me, `rbetina@gmail.com`. Allow me to make changes and manage sharing.
     - I usually add a default notification of 10 minutes for myself, but that's up to you. 
@@ -22,7 +22,6 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
     - Make the event re-occurring if you want to, until the end of the quarter.
  - Students can now book you at [https://appdevofficehours.youcanbook.me](https://appdevofficehours.youcanbook.me) and a booking will automatically appear in your Google Calendar. Try it out yourself.
  
-
 In general, try not to leave students hanging — they should walk away from an office hours appointment with most of the questions that they came in with answered. Remember our goal here is not to produce professional developers, so be deliberate about leaving them with open questions to struggle with.
 
 It is good to give them new things to think about, however, and then have them book another appointment to discuss after they've done some work — e.g. researching an API for their project.

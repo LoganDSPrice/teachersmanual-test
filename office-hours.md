@@ -11,7 +11,7 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
  - Name the new calendar "[YOUR NAME]'s AppDev" (or whatever you prefer).
  - Configure your new calendar (click on its name in the left sidebar).
     - Share with specific people — me, `rbetina@gmail.com`. Allow me to make changes and manage sharing.
-    - I usually add a default notification of 10 minutes for myself, but that's up to you. 
+    - I usually add a default notification of 5 minutes for myself, but that's up to you. 
  - Exit settings and return to the calendar.
  - Create a new event called "Office hours" (spelling and capitalization matter):
     - Make sure you created the event in the new AppDev calendar you created earlier. If not, edit the event and switch it.

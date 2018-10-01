@@ -19,6 +19,3 @@ Notes on how to teach Application Development effectively.
 * [Updating old projects checklist](updating-old-projects-checklist.md)
 
 
-
-
-

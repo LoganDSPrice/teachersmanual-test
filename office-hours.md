@@ -21,7 +21,11 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
     - I usually open two 2-hour blocks per week. I will then open more if students post on Piazza that they can't find open slots. 
     - Make the event re-occurring if you want to, until the end of the quarter.
  - Students can now book you at [https://appdevofficehours.youcanbook.me](https://appdevofficehours.youcanbook.me) and a booking will automatically appear in your Google Calendar. Try it out yourself.
- 
-In general, try not to leave students hanging — they should walk away from an office hours appointment with most of the questions that they came in with answered. Remember our goal here is not to produce professional developers, so be deliberate about which questions you leave open for them to struggle with, and which ones you resolve with them.
+
+## How much of the answers should I tell them?
+
+In general, try not to leave a student who has already struggled and is coming to you for help hanging — they should walk away from an office hours appointment with most of the questions that they came in with answered. Remember our goal here is not to produce professional developers, so be deliberate about which questions you leave open for them to struggle with, and which ones you resolve with them.
+
+However, if you recognize that the student clearly hasn't put in any time before the call and is expecting you to just do the work for them, it's perfectly acceptable to tell them to read/review/do certain things and then book another appointment.
 
 It is good to give them new things to think about, however, and then have them book another appointment to discuss after they've done some work — e.g. researching an API for their project.

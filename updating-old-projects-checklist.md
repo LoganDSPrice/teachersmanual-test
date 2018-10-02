@@ -1,20 +1,17 @@
 # Updating old projects checklist
 
+ - Replace `bin/setup` with [this](https://github.com/firstdraft/appdev_template/blob/master/files/setup)
  - Add `gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"` to the development and test groups
  - Add [default_whitelist.yml](https://github.com/firstdraft-projects/catalog/blob/master/whitelist.yml) to root folder
  - `git rm whitelist.yml` if present
  - Ensure `whitelist.yml` is gitignored
-
-
+ - Ensure that `gem "web_git", github: "firstdraft/web_git"` is included. Start the server and ensure that navigating to `/git` works.
  - Add `gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"` to the development and test groups
  - Add `gem "draft_log", github: "firstdraft/draft_log"` to the development and test groups
  - Add `gem "better_errors"` and `gem "binding_of_caller"` to the development and test groups
  - Add a file [nicer_errors.rb](https://github.com/firstdraft/appdev_template/blob/master/files/nicer_errors.rb) to `config/initializers`
  - Replace the out-of-the-box backtrack_silencers.rb with [this](https://github.com/firstdraft/appdev_template/blob/master/template.rb#L227)
  - `bundle update`
-
- - Replace `bin/setup` with [this](https://github.com/firstdraft/appdev_template/blob/master/files/setup)
- 
  - Make sure the project setup steps in README are [modern](https://github.com/firstdraft/appdev_template/blob/master/files/README.md)
 
  - Make sure Hash#[] changes to Hash#fetch in existing code

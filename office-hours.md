@@ -20,6 +20,7 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
         - Students have the option of booking for 20 minutes (default) or 40 minutes, so this means 4-5 students per block.
     - I usually open two 2-hour blocks per week. I will then open more if students post on Piazza that they can't find open slots. 
     - Make the event re-occurring if you want to, until the end of the quarter.
+    - You're welcome to set up whatever sort of schedule makes sense for you and your co-instructors, as opposed to the above suggestions. Maybe you want to just do all five weekday 1-hour lunch hours? Sure, if that works for you and your team.
  - Students can now book you at [https://appdevofficehours.youcanbook.me](https://appdevofficehours.youcanbook.me) and a booking will automatically appear in your Google Calendar. Try it out yourself.
 
 ## Setup a videoconference for remote office hours

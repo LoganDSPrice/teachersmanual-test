@@ -13,7 +13,7 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
     - Share with specific people — me, `rbetina@gmail.com`. Allow me to make changes and manage sharing. **Let me know once you've done this**; there are a few steps I need to take.
     - I usually add a default notification of 5 minutes for myself, but that's up to you. 
  - Exit settings and return to the calendar.
- - Create a new event called "AppDev office hours" (spelling and capitalization matter):
+ - Create a new event called _exactly_ "AppDev office hours" (spelling and capitalization matter):
     - Make sure you created the event in the new AppDev calendar you created earlier. If not, edit the event and switch it.
     - Edit the event and switch the availability to "Free" if it says "Busy".
     - I usually make each block of office hours last for two hours.

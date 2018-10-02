@@ -24,7 +24,7 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
 
 ## Setup a videoconference for remote office hours
 
-Students will receive a confirmation message with instructions on how to meet. At a minimum, you should offer a link to some videoconference option; I use appear.in/raghubetina. You shoul consider claiming appear.in/[YOUR NAME]
+Students will receive a confirmation message with instructions on how to meet. At a minimum, you should offer a link to some videoconference option; I use appear.in/raghubetina. You should consider claiming appear.in/[YOUR NAME]
 
 If I know I will be in a physical location, then I also give students the option of meeting me there. Let me know what you decide so that I can update the booking confirmation message.
 

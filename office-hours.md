@@ -26,7 +26,7 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
 
 Students will receive a confirmation message with instructions on how to meet. At a minimum, you should offer a link to some videoconference option; I use `appear.in/raghubetina`. You should consider claiming `appear.in/[YOUR NAME]`.
 
-If I know I will be in a particular physical location while conducting office hours (e.g. the Harper Center Winter Garden or the Midway Club in Gleacher), then I also give students the option of meeting me there. Let me know what you decide so that I can update the booking confirmation message.
+If I know I will be in a particular physical location while conducting office hours (e.g. the Harper Center Winter Garden or the Midway Club in Gleacher), then I also give students the option of meeting me there in-person. Let me know what you decide so that I can update the booking confirmation message.
 
 ## How much of the answers should I tell them?
 

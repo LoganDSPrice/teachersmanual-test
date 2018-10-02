@@ -1,6 +1,6 @@
 # Office Hours
 
-One-on-one conversations during office hours are a crucial element of learning.
+One-on-one conversations during office hours are a crucial element of learning. Our goal should be to utilize this time for [Mastery Learning](https://en.wikipedia.org/wiki/Mastery_learning).
 
 ## Setup your calendar
 

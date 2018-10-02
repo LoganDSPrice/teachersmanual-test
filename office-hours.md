@@ -8,7 +8,7 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
 
  - Click the gear icon to get to "Settings".
  - In the left sidebar, click "Add calendar" > "New Calendar".
- - Name the new calendar "[YOUR NAME]'s AppDev" e.g. "Alice's AppDev Office Hours" (or whatever you prefer).
+ - Name the new calendar "[YOUR NAME]'s AppDev" e.g. "Alice's AppDev office hours" (or whatever you prefer).
  - Configure your new calendar (click on its name in the left sidebar).
     - Share with specific people — me, `rbetina@gmail.com`. Allow me to make changes and manage sharing. **Let me know once you've done this**; there are a few steps I need to take.
     - I usually add a default notification of 5 minutes for myself, but that's up to you. 

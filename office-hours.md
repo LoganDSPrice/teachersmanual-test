@@ -22,6 +22,12 @@ I'm assuming you have a [Google Calendar](https://calendar.google.com) account.
     - Make the event re-occurring if you want to, until the end of the quarter.
  - Students can now book you at [https://appdevofficehours.youcanbook.me](https://appdevofficehours.youcanbook.me) and a booking will automatically appear in your Google Calendar. Try it out yourself.
 
+## Setup a videoconference for remote office hours
+
+Students will receive a confirmation message with instructions on how to meet. At a minimum, you should offer a link to some videoconference option; I use appear.in/raghubetina. You shoul consider claiming appear.in/[YOUR NAME]
+
+If I know I will be in a physical location, then I also give students the option of meeting me there. Let me know what you decide so that I can update the booking confirmation message.
+
 ## How much of the answers should I tell them?
 
 In general, try not to leave a student who has already struggled and is coming to you for help hanging — they should walk away from an office hours appointment with most of the questions that they came in with answered. Remember our goal here is not to produce professional developers, so be deliberate about which questions you leave open for them to struggle with, and which ones you resolve with them.

@@ -2,7 +2,7 @@
 
  - Replace `bin/setup` with [this](https://github.com/firstdraft/appdev_template/blob/master/files/setup)
  - Add `gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"` to the development and test groups
- - Add [default_whitelist.yml](https://github.com/firstdraft-projects/catalog/blob/master/whitelist.yml) to root folder
+ - Add [default_whitelist.yml](https://github.com/firstdraft/appdev_template/blob/master/files/default_whitelist.yml) to root folder
  - `git rm whitelist.yml` if present
  - Ensure `whitelist.yml` is gitignored
  - Ensure that `gem "web_git", github: "firstdraft/web_git"` is included. Start the server and ensure that navigating to `/git` works.

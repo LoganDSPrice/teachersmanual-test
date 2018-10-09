@@ -6,7 +6,6 @@
  - `git rm whitelist.yml` if present
  - Ensure `whitelist.yml` is gitignored
  - Ensure that `gem "web_git", github: "firstdraft/web_git"` is included. Start the server and ensure that navigating to `/git` works.
- - Add `gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"` to the development and test groups
  - Add `gem "draft_log", github: "firstdraft/draft_log"` to the development and test groups
  - Add `gem "better_errors"` and `gem "binding_of_caller"` to the development and test groups
  - Add a file [nicer_errors.rb](https://github.com/firstdraft/appdev_template/blob/master/files/nicer_errors.rb) to `config/initializers`

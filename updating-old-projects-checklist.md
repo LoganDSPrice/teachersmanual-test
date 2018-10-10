@@ -8,6 +8,7 @@
  - Ensure that `gem "web_git", github: "firstdraft/web_git"` is included. Start the server and ensure that navigating to `/git` works.
  - Add `gem "draft_log", github: "firstdraft/draft_log"` to the development and test groups
  - Add `gem "better_errors"` and `gem "binding_of_caller"` to the development and test groups
+ - Ensure `gem 'activeadmin', github: 'activeadmin/activeadmin'` and `gem 'devise', github: 'plataformatec/devise'` are using the RubyGems version instead of the GitHub. (e.g. just `gem 'activeadmin'` instead of `gem 'activeadmin', github: 'activeadmin/activeadmin'`)
  - Add a file [nicer_errors.rb](https://github.com/firstdraft/appdev_template/blob/master/files/nicer_errors.rb) to `config/initializers`
  - Replace the out-of-the-box backtrack_silencers.rb with [this](https://github.com/firstdraft/appdev_template/blob/master/template.rb#L227)
  - `bundle update`

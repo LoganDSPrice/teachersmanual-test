@@ -1,6 +1,6 @@
 # Updating old projects checklist
 
- - Replace `bin/setup` with [this](https://github.com/firstdraft/appdev_template/blob/master/files/setup)
+ - Replace `bin/setup` with [this](https://github.com/firstdraft/appdev_template/blob/master/files/setup) and check to see if project requires `dev:prime` data or not
  - Add `gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"` to the development and test groups
  - Add [default_whitelist.yml](https://github.com/firstdraft/appdev_template/blob/master/files/default_whitelist.yml) to root folder
  - `git rm whitelist.yml` if present

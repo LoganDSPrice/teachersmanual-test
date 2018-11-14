@@ -6,6 +6,7 @@
  - `git rm whitelist.yml` if present
  - Ensure `whitelist.yml` is gitignored
  - Ensure `cloud9_plugins.sh` is gitignored
+ - Ensure `gem "annotate"` is present, if not add to the `Gemfile` and install it with `rails g annotate:install`
  - Ensure `gem 'activeadmin', github: 'activeadmin/activeadmin'` and `gem 'devise', github: 'plataformatec/devise'` are using the RubyGems version instead of the GitHub. (e.g. just `gem 'activeadmin'` instead of `gem 'activeadmin', github: 'activeadmin/activeadmin'`)
  - Add `gem "better_errors"` and `gem "binding_of_caller"` to the development and test groups
  - Add `gem "draft_log", github: "firstdraft/draft_log"` to the development and test groups

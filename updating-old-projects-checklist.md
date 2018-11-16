@@ -41,4 +41,5 @@
  - Make sure project.rake looks [like this](https://github.com/firstdraft/appdev_template/blob/master/files/project.rake) and that the app name is update from underscores to dashes, e.g. app-name instead of app_name
 
  - Make sure the Git url in project.rake is updated from original syntax (git@github.com:appdev-projects/photogram-auth.git) to read-only syntax (git://github.com/appdev-projects/photogram-auth.git)
+- Ensure that all targets have a rake task that runs every hour or so to reset the dev:prime data (since students fill it with garbage)
 

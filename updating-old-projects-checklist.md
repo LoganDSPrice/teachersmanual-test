@@ -12,20 +12,27 @@
  - Add `gem "draft_log", github: "firstdraft/draft_log"` to the development and test groups
  - Ensure that `gem "web_git", github: "firstdraft/web_git"` is included. Start the server and ensure that navigating to `/git` works.
  - Ensure `db:seeds` is doing `AdminUser.create` and not `AdminUser.create!`
+ - Ensure all projects are ready to deploy to Heroku:
+     ```
+     group :production do
+       gem "pg"
+       gem "rails_12factor"
+     end
+     ```
  - Add a file [nicer_errors.rb](https://github.com/firstdraft/appdev_template/blob/master/files/nicer_errors.rb) to `config/initializers`
  - Ensure that in `development.rb` the lines starting with `path = Rails.root.join('whitelist.yml')` and ending with `config.action_mailer.default_url_options = { host: "localhost", port: 3000 }` (non-inclusive) is replaced with:
- ```
-     path = Rails.root.join("whitelist.yml")
-     default_whitelist_path = Rails.root.join("default_whitelist.yml")
-     whitelisted_ips = []
-     if File.exist?(path)
-       whitelisted_ips = YAML.load_file(path)
-     end
-     if File.exist?(default_whitelist_path)
-       whitelisted_ips = whitelisted_ips.concat(YAML.load_file(default_whitelist_path))
-     end
-     config.web_console.whitelisted_ips = whitelisted_ips
-  ```
+   ```
+       path = Rails.root.join("whitelist.yml")
+       default_whitelist_path = Rails.root.join("default_whitelist.yml")
+       whitelisted_ips = []
+       if File.exist?(path)
+         whitelisted_ips = YAML.load_file(path)
+       end
+       if File.exist?(default_whitelist_path)
+         whitelisted_ips = whitelisted_ips.concat(YAML.load_file(default_whitelist_path))
+       end
+       config.web_console.whitelisted_ips = whitelisted_ips
+    ```
  - Replace the out-of-the-box backtrack_silencers.rb with [this](https://github.com/firstdraft/appdev_template/blob/master/template.rb#L227)
  - `bundle update`
  - Make sure the project setup steps in README are [modern](https://github.com/firstdraft/appdev_template/blob/master/files/README.md)

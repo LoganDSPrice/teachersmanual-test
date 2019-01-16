@@ -33,7 +33,7 @@
        end
        config.web_console.whitelisted_ips = whitelisted_ips
     ```
- - Replace the out-of-the-box backtrack_silencers.rb with [this](https://github.com/firstdraft/appdev_template/blob/master/template.rb#L227)
+ - Replace the out-of-the-box backtrack_silencers.rb with [this](https://github.com/firstdraft/appdev_template/blob/aac1a4090a4d612a2efee4db9273e5fb40478140/template.rb#L227)
  - `bundle update`
  - Make sure the project setup steps in README are [modern](https://github.com/firstdraft/appdev_template/blob/master/files/README.md)
  - Make sure the READMEs don't have students run the app with bin/server, they should click the Run Project button instead

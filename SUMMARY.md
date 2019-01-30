@@ -16,4 +16,4 @@
 * [Possible Format For Lecture Notes](possible-format-for-lecture-notes.md)
 * [Configuring Cloud9](configuring-cloud9.md)
 * [Updating old projects checklist](updating-old-projects-checklist.md)
-
+* [Logan's Ruby Intro Embedded Repl Test](logan-repl-test.md)

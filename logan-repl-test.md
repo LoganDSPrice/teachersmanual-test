@@ -190,6 +190,8 @@ user_input == existing_username # double-equals, not single!
 user_input.downcase == existing_username
 ```
 
+<iframe height="400px" width="100%" src="https://repl.it/@LoganDSPrice/rps-frontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 Remember our Photogram Database exercise? Figuring out which photos were on a user's timeline — a seemingly complicated task — ended up being a long sequence of small and simple steps, like the ones above. Most applications are. It was tedious for us to do it by hand, though, so now we just need to learn enough Ruby vocabulary to teach the computer to do it for us. We'll spend the next several lessons learning just that.
 
 ### Rails

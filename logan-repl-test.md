@@ -8,17 +8,17 @@ To get started, visit [this repository](https://github.com/appdev-projects/ruby-
 
 Once `bin/setup` is complete, at a new Terminal prompt `$`, type:
 
-```
+```text
 rails console
 ```
 
-and press <kbd>return</kbd>. You should end up at a prompt that says `[1] pry(main)> ` and looks something like this:
+and press return. You should end up at a prompt that says `[1] pry(main)>` and looks something like this:
 
-(You may not have to `cd` into the folder; ignore that part.)
+\(You may not have to `cd` into the folder; ignore that part.\)
 
-![](/assets/ruby-intro-launch-rails-console.png)
+![](https://github.com/LoganDSPrice/teachersmanual-test/tree/84ad0caa4636bfb5ec5d67a079041c5b330788f5/assets/ruby-intro-launch-rails-console.png)
 
-You have launched an app called [the Rails Console](the-rails-console.md) that is an interactive playground; it allows you to try out the Ruby language as you read about it below.
+You have launched an app called [the Rails Console](https://github.com/LoganDSPrice/teachersmanual-test/tree/84ad0caa4636bfb5ec5d67a079041c5b330788f5/the-rails-console.md) that is an interactive playground; it allows you to try out the Ruby language as you read about it below.
 
 You're now ready to start reading the introduction below. As you read, try out each new Ruby concept at the prompt.
 
@@ -34,23 +34,23 @@ What is Ruby? To answer that, first consider what we can and can't do with plain
 
 We can:
 
- - Give data structure with HTML.
- - Give data style with CSS.
+* Give data structure with HTML.
+* Give data style with CSS.
 
 But we can't:
 
- - Perform **computations** on data.
-  - For example, `24 × 365`, or how many hours are there in a year? HTML cannot answer this question.
- - Have **dynamic content** like a random word that we didn't type into the source code of the page ourselves.
-  - For example, did a computer opponent choose rock, paper, or scissors?
- - Display messages only if certain **conditions** are met.
-  - For example, "You win!" if you chose rock and the opponent chose scissors.
+* Perform **computations** on data.
+  * For example, `24 × 365`, or how many hours are there in a year? HTML cannot answer this question.
+* Have **dynamic content** like a random word that we didn't type into the source code of the page ourselves.
+  * For example, did a computer opponent choose rock, paper, or scissors?
+* Display messages only if certain **conditions** are met.
+  * For example, "You win!" if you chose rock and the opponent chose scissors.
 
-Basically, HTML by itself can only produce static, unchanging websites that look the same to all visitors, and all you can do on them is click around them and read them. It's a *markup language* for content.
+Basically, HTML by itself can only produce static, unchanging websites that look the same to all visitors, and all you can do on them is click around them and read them. It's a _markup language_ for content.
 
-This might be fine for some informational sites (like the location, hours, and menu of a restaurant), but it will clearly not do for the kind of tailored, interactive web applications that we want to build (like GrubHub, where we can leave reviews or order delivery).
+This might be fine for some informational sites \(like the location, hours, and menu of a restaurant\), but it will clearly not do for the kind of tailored, interactive web applications that we want to build \(like GrubHub, where we can leave reviews or order delivery\).
 
-So, we need to learn a *general purpose language* in addition to HTML, so that we're not limited to just formatting static data. We want to save information on behalf of our users, tailor the experience for them based on who they are, and much more.
+So, we need to learn a _general purpose language_ in addition to HTML, so that we're not limited to just formatting static data. We want to save information on behalf of our users, tailor the experience for them based on who they are, and much more.
 
 ### Ruby
 
@@ -58,7 +58,7 @@ There are many general purpose programming languages, but the one that we're goi
 
 Let's spend a few minutes just getting our hands dirty with Ruby before we describe the theory behind it.
 
-Try out the commands below in your `rails console`. Type each one after the prompt that says `pry(main)>` and press <kbd>return</kbd> after each line, and you will see how Ruby interprets each expression on the next line after the `=>`.
+Try out the commands below in your `rails console`. Type each one after the prompt that says `pry(main)>` and press return after each line, and you will see how Ruby interprets each expression on the next line after the `=>`.
 
 #### Simple math
 
@@ -81,7 +81,7 @@ Now try all the below:
 rand(6)
 ```
 
-Try it again  (you can just press the up arrow to get back your last command):
+Try it again \(you can just press the up arrow to get back your last command\):
 
 ```ruby
 rand(6)
@@ -91,13 +91,13 @@ Try it again if you have to until you get a different number 🎲🎲
 
 #### Getting un-messed up
 
-This might be a good time to point out that if you make a mistake while entering an expression into `rails console` — let's say for example that you forgot a closing parenthesis — it's possible to get into a *weird state* where you press <kbd>return</kbd> and nothing happens. It's still waiting for that closing parenthesis, and then you start typing more commands, and it gets confused, and then you get confused.
+This might be a good time to point out that if you make a mistake while entering an expression into `rails console` — let's say for example that you forgot a closing parenthesis — it's possible to get into a _weird state_ where you press return and nothing happens. It's still waiting for that closing parenthesis, and then you start typing more commands, and it gets confused, and then you get confused.
 
-If something like this happens, press <kbd>Ctrl</kbd>+<kbd>C</kbd> to break out of the weird state and reset back to a clean state. You can then use the up arrow to scroll back through your history and try to fix the malformed command.
+If something like this happens, press Ctrl+C to break out of the weird state and reset back to a clean state. You can then use the up arrow to scroll back through your history and try to fix the malformed command.
 
 #### Comparison statements
 
-(Only type the stuff before the `#`; the stuff after are known as *code comments*, and are just there as notes to ourselves. They have no effect on the program.)
+\(Only type the stuff before the `#`; the stuff after are known as _code comments_, and are just there as notes to ourselves. They have no effect on the program.\)
 
 ```ruby
 1 < 2           # "1 is less than 2"
@@ -111,7 +111,7 @@ If something like this happens, press <kbd>Ctrl</kbd>+<kbd>C</kbd> to break out 
 
 #### Strings
 
-Unlike your phone's calculator app, Ruby can work with many more data types than just numbers. Most importantly, Ruby can work with text, which we wrap inside quotation marks and refer to as "strings" (of characters):
+Unlike your phone's calculator app, Ruby can work with many more data types than just numbers. Most importantly, Ruby can work with text, which we wrap inside quotation marks and refer to as "strings" \(of characters\):
 
 ```ruby
 "hello"
@@ -123,7 +123,7 @@ That wasn't very interesting, but note that if you left out the quotation marks,
 hello
 ```
 
-Your very first error message! You are going to see a *lot* of these — 99% of developing software is trying to figure out error messages. They might look scary at first, but later on they will become helpful old friends!
+Your very first error message! You are going to see a _lot_ of these — 99% of developing software is trying to figure out error messages. They might look scary at first, but later on they will become helpful old friends!
 
 Anyway, let's do something more interesting with strings:
 
@@ -177,7 +177,7 @@ b
 c
 ```
 
-(Note that here we are using a single-equals sign, `=`, the **variable assignment operator**. Above, while doing comparisons, we used the *completely and totally different* double-equals sign, `==`, the **logical equivalence operator**. Mixing up these two operators is a very easy mistake to make, and even experienced devs make it all the time — watch out.)
+\(Note that here we are using a single-equals sign, `=`, the **variable assignment operator**. Above, while doing comparisons, we used the _completely and totally different_ double-equals sign, `==`, the **logical equivalence operator**. Mixing up these two operators is a very easy mistake to make, and even experienced devs make it all the time — watch out.\)
 
 #### Putting it together
 
@@ -190,22 +190,17 @@ user_input == existing_username # double-equals, not single!
 user_input.downcase == existing_username
 ```
 
-<iframe height="400px" width="100%" src="https://repl.it/@LoganDSPrice/rps-frontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 Remember our Photogram Database exercise? Figuring out which photos were on a user's timeline — a seemingly complicated task — ended up being a long sequence of small and simple steps, like the ones above. Most applications are. It was tedious for us to do it by hand, though, so now we just need to learn enough Ruby vocabulary to teach the computer to do it for us. We'll spend the next several lessons learning just that.
 
 ### Rails
 
-Before we dig in to Ruby, let's talk a little bit more about Ruby ***on Rails***.
+Before we dig in to Ruby, let's talk a little bit more about Ruby _**on Rails**_.
 
-Ruby, as a general purpose language, can be used for just about anything — producing music[^1], flying drones[^2] — you name it. What *we* want to do with it, though, is produce useful HTML pages and send them to our users.
+Ruby, as a general purpose language, can be used for just about anything — producing music, flying drones — you name it. What _we_ want to do with it, though, is produce useful HTML pages and send them to our users.
 
 “Ruby on Rails” is just a name for a bunch of pre-written Ruby code — like what you downloaded when you began this project. It already includes, out of the box, all of the plumbing involved with delivering the output of Ruby programs to users through browsers.
 
 That way, instead of re-inventing the wheel for all that first, we can just get right down to the fun stuff — bringing our ideas to life!
 
-Next, let's learn the [Primary Syntax of Ruby](primary-syntax.md).
+Next, let's learn the [Primary Syntax of Ruby](https://github.com/LoganDSPrice/teachersmanual-test/tree/84ad0caa4636bfb5ec5d67a079041c5b330788f5/primary-syntax.md).
 
-[^1]: [http://sonic-pi.net/](http://sonic-pi.net/)
-
-[^2]: [http://artoo.io/](http://artoo.io/)

@@ -2,21 +2,21 @@
 
 Testing style guide for `rails grade`
 
-### Four-phase test
+## Four-phase test
 
 Use clear, [four-phase tests](https://robots.thoughtbot.com/four-phase-test).
 
-### Tests should be readable in isolation
+## Tests should be readable in isolation
 
 Students should be able to click "Examine Test" and read and understand a test easily. Therefore, each test should be easily understood in isolation.
 
 Therefore,
 
-#### Avoid `before`, `let`
+### Avoid `before`, `let`
 
 [Let's](https://robots.thoughtbot.com/lets-not#will-our-mystery-guest-please-leave) avoid [mystery guests](https://robots.thoughtbot.com/mystery-guest).
 
-#### Use a `describe` block with a target URL and a single descriptive test nested inside
+### Use a `describe` block with a target URL and a single descriptive test nested inside
 
 **Bad**
 
@@ -42,9 +42,9 @@ describe "/flexible/square/5" do
 end
 ```
 
-#### Avoid deeply nesting `describe`/`feature`, `context`, `it`/`scenario`
+### Avoid deeply nesting `describe`/`feature`, `context`, `it`/`scenario`
 
-##### Bad
+#### Bad
 
 ```ruby
 feature "Flexible square" do
@@ -66,7 +66,7 @@ feature "Flexible square" do
 end
 ```
 
-##### Better
+#### Better
 
 ```ruby
 describe "/flexible/square/5" do
@@ -84,7 +84,7 @@ describe "/flexible/square/5" do
 end
 ```
 
-##### Best
+#### Best
 
 ```ruby
 describe "/flexible/square/5" do
@@ -106,9 +106,9 @@ end
 
 This also allows for tailoring copy more instructively to each individual spec, rather than shoehorning it to fit a DRYer structure.
 
-#### Test features progressively to break a problem into bite-size steps 
+### Test features progressively to break a problem into bite-size steps
 
-Add tests for the presence of hardcoded copy or inputs/labels before testing for behavior. This approach lets students better narrow down what they're missing in their code. 
+Add tests for the presence of hardcoded copy or inputs/labels before testing for behavior. This approach lets students better narrow down what they're missing in their code.
 
 **Bad**
 
@@ -185,7 +185,7 @@ describe "/photos/new" do
 end
 ```
 
-### One expectation per test
+## One expectation per test
 
 Try to stick to one expectation per test, except when absolutely necessary \(e.g. to ensure proper setup\).
 
@@ -193,7 +193,7 @@ Ref:
 
 [https://devblast.com/b/ruby-testing-with-rspec-one-expectation-per-test](https://devblast.com/b/ruby-testing-with-rspec-one-expectation-per-test)
 
-### Customized Failure Messages
+## Customized Failure Messages
 
 Use customized failure messages for any `expect`s whose messages are not 100% self-explanatory.
 
@@ -201,7 +201,7 @@ Ref:
 
 [https://relishapp.com/rspec/rspec-expectations/docs/customized-message](https://relishapp.com/rspec/rspec-expectations/docs/customized-message)
 
-### Hints
+## Hints
 
 You can add hints to each spec to give students just-in-time help even when we aren't standing next time them. This is next-level rubber-ducky stuff.
 
@@ -220,7 +220,7 @@ What's going on above:
 * You can provide additional help to the student by optionally including a `hint` with the `it` or `scenario` method. The value should be a string or array of strings.
 * Keep hints in I18n so that they don't clutter up the readability of tests, and so that you can easily add the same hint to multiple relevant tests:
 
-  ```yml
+  ```text
     # config/locales/en.yml
 
     en:
@@ -234,9 +234,7 @@ What's going on above:
   ```
 
 * Store hints under keys under `en.hints`.
-
 * You can use GitHub-flavored Markdown.
-
 * To further reduce clutter, there is a helper method `h()` in `spec_helper.rb` which makes it easy to add multiple hints from I18n:
 
   ```ruby
@@ -259,7 +257,7 @@ What's going on above:
     end
   ```
 
-### Use factories
+## Use factories
 
 I go back and forth over factories vs just ActiveRecord objects, since students know exactly what ActiveRecord objects are.
 
@@ -269,7 +267,7 @@ More important than brevity, however, is that you can then define or re-define o
 
 I think `create(:photo)` is intuitive enough for students to guess what it means; it's no more magical to them than the rest of the test code \(Capybara methods, etc\) that they aren't being explicitly taught.
 
-### Capybara selectors
+## Capybara selectors
 
 * tried `has_content`: too much noise
 * tried `has_css` with id: unfamiliar \(we could introduce it\)
@@ -278,7 +276,7 @@ I think `create(:photo)` is intuitive enough for students to guess what it means
 
 Perhaps teaching `id`, `label`, `for`, and styling with `#` earlier so that we can select with it might be worthwhile.
 
-### When stubbing external requests
+## When stubbing external requests
 
 Testing external requests is tricky since forcing capybara to wait for a response will have inconsistent results. Therefore, it's best to [stub external requests and control the response in our test suite](https://robots.thoughtbot.com/how-to-stub-external-services-in-tests#create-a-fake-hello-sinatra).
 
@@ -291,7 +289,7 @@ Stubbed request should be as flexible and forgiving as possible. Use regexp to:
 * Allow for dynamic url segments
 * Allow for arbitrary additional query string parameters not specified by us \(for example, access tokens\)
 
-### WIP notes below
+## WIP notes below
 
 [http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range](http://stackoverflow.com/questions/11377087/can-i-use-capybara-rspec-to-match-a-range)
 

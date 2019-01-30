@@ -1,3 +1,4 @@
-# `rails grade`
+# rails grade
 
 How it works
+

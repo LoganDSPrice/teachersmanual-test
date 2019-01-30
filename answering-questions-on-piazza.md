@@ -26,10 +26,7 @@ If you see a question that you're not sure how to answer, **the important thing 
 
 Piazza's text editor is horrible, especially for code.
 
-The best partial solution I've found is to use the [Markdown Here](https://markdown-here.com/) Chrome extension. This will allow inline code with backticks, and all other Markdown goodness. (I use this extension for writing emails, too.)
+The best partial solution I've found is to use the [Markdown Here](https://markdown-here.com/) Chrome extension. This will allow inline code with backticks, and all other Markdown goodness. \(I use this extension for writing emails, too.\)
 
 One flaw is that, on Piazza, you have to manually add linebreaks after each paragraph _after_ converting the Markdown to Rich Text.
-
-
-
 

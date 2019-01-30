@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Pair Teaching](pair-teaching.md)
@@ -17,3 +17,4 @@
 * [Configuring Cloud9](configuring-cloud9.md)
 * [Updating old projects checklist](updating-old-projects-checklist.md)
 * [Logan's Ruby Intro Embedded Repl Test](logan-repl-test.md)
+

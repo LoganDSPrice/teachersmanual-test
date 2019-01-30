@@ -1,4 +1,4 @@
-# Introduction to Ruby
+# Logan's Ruby Intro Embedded Repl Test
 
 ## Getting Started
 
